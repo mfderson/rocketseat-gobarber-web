@@ -1,3 +1,14 @@
+## Repositório da rocketseat
+[Gobarber-web-modulo-09](https://github.com/Rocketseat/bootcamp-gostack-09)
+
+## Gerar o projeto
+
+```
+yarn create react-app rocketseat-gobarber-web
+```
+
+# Apêndice
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
