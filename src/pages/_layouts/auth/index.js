@@ -1,16 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Wrapper } from './styles';
+import { Wrapper, Content } from './styles';
 
 /*
- * childre é todo componente que é passado dentro da tag Wrapper, por exemplo
+ * children é todo componente que é passado dentro da tag Wrapper, por exemplo
  * <Wrapper>
  *  <componente_quaquer></componente_quaquer>
  * </Wrapper>
  */
 export default function AuthLayout({ children }) {
-  return <Wrapper>{children}</Wrapper>;
+  return (
+    <Wrapper>
+      <Content>{children}</Content>
+    </Wrapper>
+  );
 }
 
 AuthLayout.propTypes = {
