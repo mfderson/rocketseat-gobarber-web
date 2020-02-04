@@ -2,9 +2,16 @@
 [Gobarber-web-modulo-09](https://github.com/Rocketseat/bootcamp-gostack-09)
 
 ## Gerar o projeto
-
 ```
 yarn create react-app rocketseat-gobarber-web
+```
+
+## Rodar o projeto
+Temos que rodar o containers do backend:
+```
+docker start redisbarber
+docker start mongobarber
+docker start gobarber
 ```
 
 # Apêndice
