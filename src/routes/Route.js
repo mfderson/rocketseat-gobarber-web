@@ -9,7 +9,7 @@ import { store } from '~/store';
 
 export default function RouteWrapper({
   component: Component,
-  isPrivate = false, // propriedade passada nas rotas que são privadas
+  isPrivate, // propriedade passada nas rotas que são privadas
   ...rest // restantes das propriedades
 }) {
   const { signed } = store.getState().auth;
