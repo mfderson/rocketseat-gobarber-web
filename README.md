@@ -12,6 +12,8 @@ Temos que rodar o containers do backend:
 docker start redisbarber
 docker start mongobarber
 docker start gobarber
+cd ~/dev/cursos/rocketseat/rocketseat-gobarber
+yarn dev
 ```
 
 # Apêndice
